@@ -1,0 +1,8 @@
+# Desktop and Documents are Apple-managed symlinks on this Mac.
+# Their actual contents are synced by separate, non-overlapping jobs.
+- /Documents/**
+- /Desktop/**
+- /Documents.rclonelink
+- /Desktop.rclonelink
+- /.CloudDriveSyncBackups/**
+- .DS_Store

@@ -1,0 +1,4 @@
+# Changing these rules after initialization requires a reviewed resync.
+# Exclude only bridge history and Mac directory-view bookkeeping.
+- /.CloudDriveSyncBackups/**
+- .DS_Store
